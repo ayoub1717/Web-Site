@@ -25,7 +25,7 @@ header{
 }
 .logo{
     margin-top: 20px;
-    margin-left: 40%;
+    margin-left: 45%;
     width: 100px;
     border-radius: 50%;
 }
@@ -395,4 +395,56 @@ button:hover .button-text {
 #pp{
     margin: 3px;
     margin-left: 90%;
+}
+
+.bio{
+  padding: 5px;
+  border: 1px solid rgba(243, 255, 248, 0.3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
+  align-items: center;
+  margin: 10px;
+}
+
+.bo{
+  display: flex;
+}
+.bi{
+  padding: 10px;
+  border-radius: 30px;
+  margin-left: 15px;
+  gap: 2px;
+  width: 90%;
+  border: 1px solid rgba(243, 255, 248, 0.3);
+  justify-content: start;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.bi img{
+  border-radius: 20%;
+}
+
+.bia{
+  margin-left: 25px;
+  color: white;
+  display: flex;
+}
+.bip{
+  padding: 5px;
+}
+.bip p{
+  padding-top: 10px;
+}
+#ppp{
+  padding-top: 10px;
+}
+#lm{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+main{
+  display: none;
 }
