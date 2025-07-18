@@ -8,7 +8,7 @@
     <link rel="icon" type="image" href="img/logo-removebg-preview.png">
 </head>
 <body>
-    <header>
+    <header id="all">
         <div class="im1">
         <img src="img/logo-removebg-preview.png" alt="ego" class="logo">
         <center>
@@ -35,7 +35,7 @@
             <div class="tt">
             <h1>best image</h1>
             <p>best image by Ego prodection for view more detail just click</p>
-            <button class="learn-more">
+            <button class="learn-more" onclick="img()">
             <span class="circle" aria-hidden="true"><span class="icon arrow"></span></span><span class="button-text">Learn More</span>
             </button>
             </div>
@@ -95,6 +95,98 @@
     </div>
     </center>
     </header>
+        <main id="img">      
+        <div class="header">
+        <div class="btna">
+            <button id="x" onclick="back()"><video autoplay muted loop playsinline width="30px" id="x"><source src="img/x.mp4" type="video/mp4"></video></button>
+        </div>
+        <div class="im1">
+        <img src="img/logo-removebg-preview.png" alt="ego" class="logo" id="logo">
+        <h4 class="pp" id="pp">E</h4>
+        <h4 class="pp" id="pp">G</h4>
+        <h4 class="pp" id="pp">O</h4>
+        </div>
+        </div>
+        <hr>
+        <div class="bi">
+            <img src="img/7siin.jpg" alt="Ego" width="30%">
+            <br>
+            <div class="bia">
+                <div class="bii">
+                    <div class="bio">
+                    <img src="img/icons8-user-50.png" alt="ego" width="30px">
+                    <p>Ayoub bargaoui</p>
+                    </div>
+                    <div class="bo">
+                    <div class="bio">
+                    <img src="img/icons8-user-50.png" alt="ego" width="30px">
+                    <p>7ssine dra chnaw</p>
+                    </div>
+                    <div class="bio">
+                    <img src="img/icons8-map-50.png" alt="ego" width="30px">
+                    <p>Bargou</p>
+                    </div>
+                </div>
+                    <button class="learn-more" id="lm">
+                    <span class="circle" aria-hidden="true"><span class="icon arrow"></span></span><span class="button-text">Learn More</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="bi">
+            <img src="img/7siin.jpg" alt="Ego" width="30%">
+            <br>
+            <div class="bia">
+                <div class="bii">
+                    <div class="bio">
+                    <img src="img/icons8-user-50.png" alt="ego" width="30px">
+                    <p>Ayoub bargaoui</p>
+                    </div>
+                    <div class="bo">
+                    <div class="bio">
+                    <img src="img/icons8-user-50.png" alt="ego" width="30px">
+                    <p>7ssine dra chnaw</p>
+                    </div>
+                    <div class="bio">
+                    <img src="img/icons8-map-50.png" alt="ego" width="30px">
+                    <p>Bargou</p>
+                    </div>
+                </div>
+                    <button class="learn-more" id="lm">
+                    <span class="circle" aria-hidden="true"><span class="icon arrow"></span></span><span class="button-text">Learn More</span>
+                    </button>
+                </div>
+            </div>
+            </div>
+            <div class="bi">
+            <img src="img/7siin.jpg" alt="Ego" width="30%">
+            <br>
+            <div class="bia">
+                <div class="bii">
+                    <div class="bio">
+                    <img src="img/icons8-user-50.png" alt="ego" width="30px">
+                    <p>Ayoub bargaoui</p>
+                    </div>
+                    <div class="bo">
+                    <div class="bio">
+                    <img src="img/icons8-user-50.png" alt="ego" width="30px">
+                    <p>7ssine dra chnaw</p>
+                    </div>
+                    <div class="bio">
+                    <img src="img/icons8-map-50.png" alt="ego" width="30px">
+                    <p>Bargou</p>
+                    </div>
+                </div>
+                    <button class="learn-more" id="lm">
+                    <span class="circle" aria-hidden="true"><span class="icon arrow"></span></span><span class="button-text">Learn More</span>
+                    </button>
+                </div>
+            </div>
+            </div>
+    </main>
+
+
 <div id="loader">
   <img src="img/logo-removebg-preview.png" alt="Chargement..." class="spin">
 </div>
@@ -104,6 +196,20 @@
     document.getElementById("loader").style.display = "none";
     document.getElementById("content").style.display = "block";
   });
+    function img(){
+    var all = document.getElementById("all");
+    var img = document.getElementById("img");
+
+    all.style.display = "none";
+    img.style.display = "block";
+    }   
+    function back(){
+    var all = document.getElementById("all");
+    var img = document.getElementById("img");
+
+    all.style.display = "block";
+    img.style.display = "none";
+    }
 </script>
 </body>
 </html>
